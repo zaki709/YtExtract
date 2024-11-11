@@ -1,0 +1,12 @@
+version: '3'
+services:
+  python3:
+    environment:
+      - PULSE_SERVER=host.docker.internal
+    restart: always
+    build: .
+    container_name: ytextract
+    working_dir: '/root/YtExtract'
+    tty: true
+    volumes:
+      - .:/root/YtExtract
