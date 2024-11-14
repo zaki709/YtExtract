@@ -10,6 +10,10 @@ up:
 down:
 	docker compose down
 
+.PHONY: run
+run:
+	docker exec -it ytextract python3 src/main.py $(url)
+
 .PHONY: shell
 shell:
 	docker exec -it ytextract /bin/bash

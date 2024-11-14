@@ -1,2 +1,5 @@
 wave
 yt-dlp
+python-dotenv
+google-api-python-client
+requests

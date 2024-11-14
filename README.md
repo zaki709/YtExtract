@@ -8,15 +8,16 @@ ouput: Extracted Youtube video data like this.
 
 ```
 output/
-    ┗ {youtube video title}
+    ┗ {youtube video title}\
         ┣ image/
         ┃   ┗ thumbnail.png
         ┣ sound/
         ┃   ┗ sound.wav
         ┗ data/
-            ┗ detail_data.csv
+            ┣ detail_data.csv
+            ┗ spectrogram.png
         
 ```
 
-## How to uses
+## How to use
 
